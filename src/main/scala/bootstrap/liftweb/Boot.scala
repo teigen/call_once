@@ -23,6 +23,7 @@ class Boot {
         Menu("Home") / "index" >> Template(() => {        
         <lift:surround with="default" at="content">
           <lift:demo form="post">
+          Click a button multiple times within 5 seconds
             <demo:callOnce/>
             <demo:oneShot/>
           </lift:demo>
